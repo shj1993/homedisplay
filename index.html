@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js">
+
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://images.france.fr/zeaejvyq9bhj/2iAa84874gFOOKxspo7ssu/aa855e94895b7f1192c949bf8ef34fa5/kr_france_fr____________________-018.png?w=1120&h=490&q=70&fl=progressive&fit=fill");
+            background-position: center;
+            background-size: cover;
+
+            color: white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .todo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .content {
+            font-size: 25px;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            height: 20vh;
+            width: 100vw;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">11:30</div>
+        <div class="greeting">hello!</div>
+        <div class="todo">움직이면 뭐든 달라진다!</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">-Antoine Marie Roger De Saint Exupery-</div>
+        <div id="content" class="content">"완벽함은 더 이상 보탤 것이 없을 때가 아니라, 더 이상 뺄 것이 없을 때 이뤄진다."</div>
+    </div>
+</body>
+
+</html>
